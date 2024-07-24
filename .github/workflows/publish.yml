@@ -1,4 +1,4 @@
-name: Publish to GitHub Pages
+name: send it yolo
 
 on:
   # auto-run when pushed to the default branch
@@ -13,6 +13,12 @@ permissions:
   pages: write
   id-token: write
 
+defaults:
+  - scope:
+      path: ./public/buns.json
+    values:
+      permalink: /v1/buns
+
 concurrency:
   group: 'pages'
   cancel-in-progress: false
@@ -24,8 +30,8 @@ jobs:
       - id: checkout
         name: Checkout master
         uses: actions/checkout@v4
-      - id: root-index
-        name: Merge README.md w/ public index.md
+      - id: index
+        name: Merge README.md into public/index.md
         run: |-
           cat ./README.md | perl -ne 's/\.github\///; print;' >> ./public/index.md
           cp -v ./.github/showdex-lib.png ./public
