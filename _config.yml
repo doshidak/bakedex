@@ -1,9 +1,6 @@
 # GitHub Flavored Markdown
 markdown: GFM
 
-include:
-  - .github/showdex-lib.png
-
 exclude:
   - CNAME
   - LICENSE

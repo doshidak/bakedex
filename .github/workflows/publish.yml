@@ -25,11 +25,10 @@ jobs:
         name: Checkout master
         uses: actions/checkout@v4
       - id: root-index
-        name: Copy README.md to public
+        name: Merge README.md w/ public index.md
         run: |-
-          cp -v ./README.md ./public/index.md
-          mkdir ./public/.github
-          cp -v ./.github/showdex-lib.png ./public/.github
+          cat ./README.md | perl -ne 's/\.github\///; print;' >> ./public/index.md
+          cp -v ./.github/showdex-lib.png ./public
       - id: setup
         name: Configure pages
         uses: actions/configure-pages@v5

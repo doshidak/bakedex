@@ -1,11 +1,5 @@
----
-layout: page
-title: Bakedex — Showdex asset bundle repository
-permalink: /
----
-
 <h1 align="center">
-  <img alt="showdex-lib" width="360px" src="/.github/showdex-lib.png">
+  <img alt="showdex-lib" width="360px" src=".github/showdex-lib.png">
   <br>
   <code>bakedex</code>
 </h1>
