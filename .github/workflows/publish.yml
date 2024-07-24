@@ -25,8 +25,11 @@ jobs:
         name: Checkout master
         uses: actions/checkout@v4
       - id: root-index
-        name: Copy README.md as root index.md
-        run: cp -v ./README.md ./public/index.md
+        name: Copy README.md to public
+        run: |-
+          cp -v ./README.md ./public/index.md
+          mkdir ./public/.github
+          cp -v /.github/showdex-lib.png ./public/.github
       - id: setup
         name: Configure pages
         uses: actions/configure-pages@v5
