@@ -1,4 +1,4 @@
-name: Publish current master to GitHub Pages
+name: Publish master to GitHub Pages
 
 on:
   # auto-run when pushed to the default branch
@@ -24,6 +24,9 @@ jobs:
       - id: checkout
         name: Checkout master
         uses: actions/checkout@v4
+      - id: root-index
+        name: Copy README.md as root index.md
+        run: cp -v ./README.md ./public/index.md
       - id: setup
         name: Configure pages
         uses: actions/configure-pages@v5

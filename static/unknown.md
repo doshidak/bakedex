@@ -1,7 +1,0 @@
----
-permalink: /404.html
----
-
-<h1 align="center">
-  <a href="/">¯\_(ツ)_/¯</a>
-</h1>
