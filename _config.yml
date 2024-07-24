@@ -12,9 +12,3 @@ exclude:
   - scripts
   - static
   - yarn.lock
-
-defaults:
-  - scope:
-      path: ./public/buns.json
-    values:
-      permalink: /v1/buns
