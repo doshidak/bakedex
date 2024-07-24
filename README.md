@@ -1,8 +1,5 @@
-<p align="center">
-  <img alt="showdex-lib" width="320px" src="/.github/showdex-lib.png">
-</p>
-
 <h1 align="center">
+  <img alt="showdex-lib" width="360px" src="/.github/showdex-lib.png">
   <code>bakedex</code>
 </h1>
 
@@ -16,7 +13,7 @@
 
 <br>
 
-Repository of [**Showdex**](https://github.com/doshidak/showdex) asset bundles. This serves as a [CDN](https://en.wikipedia.org/wiki/Content_delivery_network) for the most up-to-date versions of pre-bundled assets that Showdexes v1.2.4+ will periodically update from.
+Repository of [**Showdex**](https://smogon.com/forums/threads/showdex-an-auto-updating-damage-calculator-built-into-showdown.3707265/post-9368925) asset bundles. This serves as a [CDN](https://en.wikipedia.org/wiki/Content_delivery_network) for the most up-to-date versions of pre-bundled assets that Showdexes v1.2.4+ will periodically update from.
 
 <strong>tl;dr <sub><em>also like the only explanation lmao</em></sub></strong>
 

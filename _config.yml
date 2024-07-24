@@ -1,0 +1,9 @@
+exclude:
+  - CNAME
+  - LICENSE
+  - node_modules
+  - package.json
+  - README.md
+  - scripts
+  - static
+  - yarn.lock
