@@ -1,0 +1,39 @@
+{
+  "name": "bakedex",
+  "version": "1.0.0",
+  "description": "Showdex asset bundle repository",
+  "author": "Keith Choison <keith@tize.io>",
+  "license": "AGPL-3.0",
+  "homepage": "https://showdex.tize.io/bakedex",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doshidak/bakedex.git"
+  },
+  "private": true,
+  "engines": {
+    "node": "^18.0.0",
+    "yarn": "^1.22.0"
+  },
+  "type": "module",
+  "scripts": {
+    "patch-ghooks": "./scripts/patch-ghooks.sh",
+    "commit": "./node_modules/cz-customizable/standalone.js",
+    "cm": "yarn commit",
+    "cz": "yarn commit",
+    "postinstall": "yarn patch-ghooks"
+  },
+  "config": {
+    "cz-customizable": {
+      "config": ".cz-config.cjs"
+    },
+    "ghooks": {
+      "commit-msg": "npx cz-customizable-ghooks $2"
+    }
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "cz-customizable": "^7.2.1",
+    "cz-customizable-ghooks": "^2.0.0",
+    "ghooks": "^2.0.4"
+  }
+}
