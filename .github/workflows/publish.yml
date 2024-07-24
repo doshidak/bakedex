@@ -13,12 +13,6 @@ permissions:
   pages: write
   id-token: write
 
-defaults:
-  - scope:
-      path: ./public/buns.json
-    values:
-      permalink: /v1/buns
-
 concurrency:
   group: 'pages'
   cancel-in-progress: false
