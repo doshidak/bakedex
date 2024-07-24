@@ -1,5 +1,5 @@
 ---
-layout: page
-title: Bakedex — Showdex asset bundle repository
+layout: null
 permalink: /
+title: Showdex asset bundle repository
 ---
