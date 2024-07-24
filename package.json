@@ -4,7 +4,7 @@
   "description": "Showdex asset bundle repository",
   "author": "Keith Choison <keith@tize.io>",
   "license": "AGPL-3.0",
-  "homepage": "https://showdex.tize.io/bakedex",
+  "homepage": "https://bake.dex.tize.io",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/doshidak/bakedex.git"
