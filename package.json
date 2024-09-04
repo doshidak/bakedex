@@ -9,6 +9,7 @@
     "type": "git",
     "url": "git+https://github.com/doshidak/bakedex.git"
   },
+  "packageManager": "yarn@1.22.22",
   "private": true,
   "engines": {
     "node": "^18.0.0",
