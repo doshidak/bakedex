@@ -104,9 +104,12 @@ export interface BakedexApiResponse {
 * ya here's what that information on a **bundle** would actually look like, more or less
 * this is the basic skeleton, but more props may exist depending on the `ntt`
 
+> [!CAUTION]
+> in hindsight, I realize that something called a "`ShowdexAssetBundle`" would imply an **asset bundle** used in Showdex, but is *not* actually that... LOL. it's technically the ***metadata*** of that **asset bundle**... so really, it's missing a "–`Metadata`" suffix to the name HAHA but fucc it yolo srry
+
 ```ts
-// note: this isn't just used for strictly assets hosted here, so extraneous props may exist;
-// this is a base skeleton used for describing other stuff, like translation files!
+// note: this interface is used for other Showdex-related stuff like loading translation files,
+// so you'll find some extraneous props like `ext` & `label` here
 export interface ShowdexAssetBundle {
   id: string; // bundle's id
   ext?: string; // file extension, which doesn't exist here; will be `null` most likely!
@@ -142,8 +145,9 @@ export type BakedexApiBunsResponse = BakedexApiResponse & {
   payload: {
     // info about the 'players' namespace of Calcdex player title bundles
     players: {
-      // info about a particular asset (e.g., 'titles' here)
-      // you'll want to hang onto the `id` if you wanna grab the actual asset!!
+      // info about a particular bundle (e.g., 'titles' here)
+      // you'll want to hang onto the bundle's `id` if you wanna grab the bundle after!!
+      // (also note: the `id` of the ShowdexAssetBundle will match the `id` key here)
       [id: string]: ShowdexAssetBundle & {
         ntt: 'titles';
       };
