@@ -7,7 +7,7 @@
 <table align="center">
   <thead>
     <tr>
-      <th>&nbsp;<a href="https://bake.dex.tize.io">Repository</a> 2024.09.29&nbsp;</th>
+      <th>&nbsp;<a href="https://bake.dex.tize.io">Repository</a> 2024.10.05&nbsp;</th>
       <th>&nbsp;Serving <a href="https://github.com/doshidak/showdex"><code>showdex</code></a> · <a href="https://github.com/doshidak/showdex/releases/tag/v1.2.5">v1.2.5</a>&nbsp;</th>
     </tr>
   </thead>
