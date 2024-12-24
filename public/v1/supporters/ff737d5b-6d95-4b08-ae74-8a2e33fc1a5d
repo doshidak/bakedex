@@ -56,21 +56,22 @@
           ]
         },
         {
+          "name": "Roy",
+          "showdownUser": true,
+          "periods": [
+            [
+              "2024-09-27T02:15:58Z",
+              "2024-10-27T02:15:58Z"
+            ]
+          ]
+        },
+        {
           "name": "Picachuleboss",
           "showdownUser": true,
           "periods": [
             [
               "2024-07-05T21:56:50Z",
               "2024-08-05T21:56:50Z"
-            ]
-          ]
-        },
-        {
-          "name": "Roy",
-          "showdownUser": true,
-          "periods": [
-            [
-              "2024-09-27T02:15:58Z"
             ]
           ]
         },
@@ -145,6 +146,14 @@
           ]
         },
         {
+          "name": "Wan L",
+          "periods": [
+            [
+              "2024-01-07T14:17:20Z"
+            ]
+          ]
+        },
+        {
           "name": "FurryKrisp",
           "showdownUser": true,
           "periods": [
@@ -160,14 +169,6 @@
             [
               "2023-09-05T09:02:03Z",
               "2024-08-05T09:02:03Z"
-            ]
-          ]
-        },
-        {
-          "name": "Wan L",
-          "periods": [
-            [
-              "2024-01-07T14:17:20Z"
             ]
           ]
         },
