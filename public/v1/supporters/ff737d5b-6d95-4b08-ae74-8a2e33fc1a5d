@@ -108,6 +108,15 @@
               "2025-02-17T07:09:52Z"
             ]
           ]
+        },
+        {
+          "name": "iPodCase4Sale",
+          "showdownUser": true,
+          "periods": [
+            [
+              "2025-05-01T02:12:50Z"
+            ]
+          ]
         }
       ]
     },
@@ -130,7 +139,8 @@
           "showdownUser": true,
           "periods": [
             [
-              "2023-04-10T13:35:32Z"
+              "2023-04-10T13:35:32Z",
+              "2025-05-10T13:35:32Z"
             ]
           ]
         },
@@ -152,21 +162,21 @@
           ]
         },
         {
+          "name": "RadiantShackles",
+          "showdownUser": true,
+          "periods": [
+            [
+              "2024-03-04T00:44:33Z"
+            ]
+          ]
+        },
+        {
           "name": "TheNexyr",
           "showdownUser": true,
           "periods": [
             [
               "2023-07-21T01:24:21Z",
               "2024-09-21T01:24:21Z"
-            ]
-          ]
-        },
-        {
-          "name": "RadiantShackles",
-          "showdownUser": true,
-          "periods": [
-            [
-              "2024-03-04T00:44:33Z"
             ]
           ]
         },
