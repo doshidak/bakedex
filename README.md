@@ -7,8 +7,8 @@
 <table align="center">
   <thead>
     <tr>
-      <th>&nbsp;<a href="https://bake.dex.tize.io">Repository</a> 2025.08.26&nbsp;</th>
-      <th>&nbsp;Serving <a href="https://github.com/doshidak/showdex"><code>showdex</code></a> · <a href="https://github.com/doshidak/showdex/releases/tag/v1.2.5">v1.2.5</a>&nbsp;</th>
+      <th>&nbsp;<a href="https://bake.dex.tize.io">Repository</a> 2025.09.27&nbsp;</th>
+      <th>&nbsp;Serving <a href="https://github.com/doshidak/showdex"><code>showdex</code></a> · <a href="https://github.com/doshidak/showdex/releases/tag/v1.3.0">v1.3.0</a>&nbsp;</th>
     </tr>
   </thead>
 </table>
