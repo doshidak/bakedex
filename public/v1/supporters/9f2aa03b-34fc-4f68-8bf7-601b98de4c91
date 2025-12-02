@@ -124,6 +124,15 @@
           ]
         },
         {
+          "name": "VZR",
+          "showdownUser": true,
+          "periods": [
+            [
+              "2025-10-16T00:07:26Z"
+            ]
+          ]
+        },
+        {
           "name": "Michael L",
           "periods": [
             [
@@ -352,6 +361,15 @@
           ]
         },
         {
+          "name": "jevans2497",
+          "showdownUser": true,
+          "periods": [
+            [
+              "2025-10-16T21:01:38Z"
+            ]
+          ]
+        },
+        {
           "name": "momalaharris",
           "showdownUser": true,
           "periods": [
@@ -383,6 +401,15 @@
           "periods": [
             [
               "2023-02-07T06:39:25Z"
+            ]
+          ]
+        },
+        {
+          "name": "Ben6464",
+          "showdownUser": true,
+          "periods": [
+            [
+              "2025-11-04T16:21:17Z"
             ]
           ]
         },

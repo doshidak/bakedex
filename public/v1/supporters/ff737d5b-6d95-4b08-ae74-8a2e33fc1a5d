@@ -106,7 +106,8 @@
           "name": "James G",
           "periods": [
             [
-              "2025-02-17T07:09:52Z"
+              "2025-02-17T07:09:52Z",
+              "2025-11-17T07:09:52Z"
             ]
           ]
         },
@@ -115,7 +116,8 @@
           "showdownUser": true,
           "periods": [
             [
-              "2025-05-01T02:12:50Z"
+              "2025-05-01T02:12:50Z",
+              "2025-11-01T02:12:50Z"
             ]
           ]
         }
@@ -127,21 +129,21 @@
       "term": "monthly",
       "members": [
         {
+          "name": "PokePastry",
+          "showdownUser": true,
+          "periods": [
+            [
+              "2023-08-04T03:41:08Z"
+            ]
+          ]
+        },
+        {
           "name": "GabrielPBC",
           "showdownUser": true,
           "periods": [
             [
               "2023-08-11T10:33:15Z",
               "2025-04-11T10:33:15Z"
-            ]
-          ]
-        },
-        {
-          "name": "PokePastry",
-          "showdownUser": true,
-          "periods": [
-            [
-              "2023-08-04T03:41:08Z"
             ]
           ]
         },
@@ -156,20 +158,20 @@
           ]
         },
         {
-          "name": "Wan L",
-          "periods": [
-            [
-              "2024-01-07T14:17:20Z",
-              "2025-08-07T14:17:20Z"
-            ]
-          ]
-        },
-        {
           "name": "RadiantShackles",
           "showdownUser": true,
           "periods": [
             [
               "2024-03-04T00:44:33Z"
+            ]
+          ]
+        },
+        {
+          "name": "Wan L",
+          "periods": [
+            [
+              "2024-01-07T14:17:20Z",
+              "2025-08-07T14:17:20Z"
             ]
           ]
         },
