@@ -12,6 +12,15 @@
       "term": "once",
       "members": [
         {
+          "name": "Tarkus Lee",
+          "showdownUser": true,
+          "periods": [
+            [
+              "2026-05-07T12:51:26Z"
+            ]
+          ]
+        },
+        {
           "name": "Texas Cloverleaf",
           "showdownUser": true,
           "periods": [
@@ -395,6 +404,15 @@
           ]
         },
         {
+          "name": "Stuvnop",
+          "showdownUser": true,
+          "periods": [
+            [
+              "2026-04-14T09:36:13Z"
+            ]
+          ]
+        },
+        {
           "name": "momalaharris",
           "showdownUser": true,
           "periods": [
@@ -413,15 +431,6 @@
           ]
         },
         {
-          "name": "FR1E5",
-          "showdownUser": true,
-          "periods": [
-            [
-              "2022-10-22T16:18:20Z"
-            ]
-          ]
-        },
-        {
           "name": "Tanuj C",
           "periods": [
             [
@@ -435,6 +444,23 @@
           "periods": [
             [
               "2025-11-04T16:21:17Z"
+            ]
+          ]
+        },
+        {
+          "name": "Tanner B",
+          "periods": [
+            [
+              "2026-03-31T22:09:19Z"
+            ]
+          ]
+        },
+        {
+          "name": "FR1E5",
+          "showdownUser": true,
+          "periods": [
+            [
+              "2022-10-22T16:18:20Z"
             ]
           ]
         },
