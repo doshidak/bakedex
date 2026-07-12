@@ -27,9 +27,9 @@
         "ext": null,
         "gen": 9,
         "format": "vgc2025",
-        "desc": "Curated VGC sets from the Nimbasa City Post VGC Damage Calculator, as of August 2025.",
+        "desc": "Curated VGC sets from the Nimbasa City Post VGC Damage Calculator, as of June 2026.",
         "created": "2024-01-04T09:38:33Z",
-        "updated": "2025-08-14T06:37:44.128Z",
+        "updated": "2026-06-28T04:41:56.443Z",
         "disabled": false
       },
       "b83b77be-2422-45c0-90a6-2b34952a2e77": {
@@ -72,6 +72,20 @@
         "desc": "Pokémon Champions VGC 2026 (Reg. M-A) usage stats from Smogon (https://smogon.com/stats).",
         "created": "2026-06-29T01:44:35.794Z",
         "updated": "2026-07-10T21:23:43.595Z",
+        "disabled": false
+      },
+      "4a0f6bd0-52a2-4322-9adc-3258a74b6f68": {
+        "id": "4a0f6bd0-52a2-4322-9adc-3258a74b6f68",
+        "ntt": "presets",
+        "name": "Nimbasa City Post Champions",
+        "label": "NCP Champions 2026",
+        "author": "nerd-of-now",
+        "ext": null,
+        "gen": 9,
+        "format": "championsvgc2026",
+        "desc": "Curated Pokémon Champions sets from the Nimbasa City Post VGC Damage Calculator, as of July 2026.",
+        "created": "2026-06-28T04:41:56.443Z",
+        "updated": "2026-07-10T21:27:39.911Z",
         "disabled": false
       }
     },
